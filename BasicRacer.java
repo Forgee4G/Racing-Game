@@ -244,7 +244,6 @@ public class BasicRacer extends JPanel implements ActionListener, KeyListener {
     }
 
     @Override public void keyTyped(KeyEvent e) {}
-
     private void restart() {
         carX = ROAD_X + ROAD_W / 2.0 - 20;
         carY = H - 110;
